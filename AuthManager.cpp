@@ -61,7 +61,7 @@ bool AuthManager::signup(const std::string &username)
 bool AuthManager::login(const std::string &username,const std::string &password)
 {
     std::string response;
-    if(sendRequest("/login","username"+username+"&password="+password,response,false))
+    if(sendRequest("/login","username="+username+"&password="+password,response,false))
     {
         try
         {
