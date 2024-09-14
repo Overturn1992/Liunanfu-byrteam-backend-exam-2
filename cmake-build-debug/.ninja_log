@@ -1,0 +1,10 @@
+# ninja log v6
+1	78	1726301225178281260	build.ninja	813bf6fd8681bc50
+1	21	1726291329338413033	CMakeFiles/byrteam.dir/AuthManager.cpp.o	b3f7c1bf08fbaa74
+1	296	1726302874248259301	CMakeFiles/byrteam.dir/main.cpp.o	d66b2d0c6f49545e
+2	1517	1726302874258259301	CMakeFiles/byrteam.dir/NMSClient.cpp.o	fa8d8fa7ae44f07b
+1	2732	1726302874258259301	CMakeFiles/byrteam.dir/AuthManager.cpp.o	b3f7c1bf08fbaa74
+2	2784	1726302874258259301	CMakeFiles/byrteam.dir/DataHandler.cpp.o	eb6f9be1e3a2a427
+2784	3014	1726302877038259264	byrteam	a93f6081fac62696
+1	650	1726303189688255101	CMakeFiles/byrteam.dir/main.cpp.o	d66b2d0c6f49545e
+650	888	1726303190338255092	byrteam	a93f6081fac62696
