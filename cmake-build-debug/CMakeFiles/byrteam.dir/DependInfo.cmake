@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/liunanfu/CLionProjects/byrteam/AuthManager.cpp" "CMakeFiles/byrteam.dir/AuthManager.cpp.o" "gcc" "CMakeFiles/byrteam.dir/AuthManager.cpp.o.d"
-  "/home/liunanfu/CLionProjects/byrteam/DataHandler.cpp" "CMakeFiles/byrteam.dir/DataHandler.cpp.o" "gcc" "CMakeFiles/byrteam.dir/DataHandler.cpp.o.d"
-  "/home/liunanfu/CLionProjects/byrteam/NMSClient.cpp" "CMakeFiles/byrteam.dir/NMSClient.cpp.o" "gcc" "CMakeFiles/byrteam.dir/NMSClient.cpp.o.d"
-  "/home/liunanfu/CLionProjects/byrteam/main.cpp" "CMakeFiles/byrteam.dir/main.cpp.o" "gcc" "CMakeFiles/byrteam.dir/main.cpp.o.d"
+  "/home/liunanfu/Liunanfu-byrteam-backend-exam-2/AuthManager.cpp" "CMakeFiles/byrteam.dir/AuthManager.cpp.o" "gcc" "CMakeFiles/byrteam.dir/AuthManager.cpp.o.d"
+  "/home/liunanfu/Liunanfu-byrteam-backend-exam-2/DataHandler.cpp" "CMakeFiles/byrteam.dir/DataHandler.cpp.o" "gcc" "CMakeFiles/byrteam.dir/DataHandler.cpp.o.d"
+  "/home/liunanfu/Liunanfu-byrteam-backend-exam-2/NMSClient.cpp" "CMakeFiles/byrteam.dir/NMSClient.cpp.o" "gcc" "CMakeFiles/byrteam.dir/NMSClient.cpp.o.d"
+  "/home/liunanfu/Liunanfu-byrteam-backend-exam-2/main.cpp" "CMakeFiles/byrteam.dir/main.cpp.o" "gcc" "CMakeFiles/byrteam.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

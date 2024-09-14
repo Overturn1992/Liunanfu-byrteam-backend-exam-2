@@ -44,8 +44,8 @@ void NMSClient::refreshTokenLoop()
             spdlog::warn("Failed to refresh token,retrying login.");
             while(!authManager.login(username,authManager.getPassword()))
             {
-                spdlog::error("Re-login failed,retrying in 5 seconds...");
-                std::this_thread::sleep_for(std::chrono::seconds(5));
+                spdlog::error("Re-login failed,retrying in 10 seconds...");
+                std::this_thread::sleep_for(std::chrono::seconds(10));
             }
         }
         std::this_thread::sleep_for(std::chrono::seconds(2));

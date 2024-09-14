@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/liunanfu/.cache/JetBrains/RemoteDev/dist/ce40994fdc0ab_CLion-2024.2.1/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/liunanfu/clion-2024.2.1/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /home/liunanfu/.cache/JetBrains/RemoteDev/dist/ce40994fdc0ab_CLion-2024.2.1/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/liunanfu/clion-2024.2.1/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liunanfu/CLionProjects/byrteam
+CMAKE_SOURCE_DIR = /home/liunanfu/Liunanfu-byrteam-backend-exam-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liunanfu/CLionProjects/byrteam/cmake-build-debug
+CMAKE_BINARY_DIR = /home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/byrteam.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/byrteam.dir/progress.make
 include CMakeFiles/byrteam.dir/flags.make
 
 CMakeFiles/byrteam.dir/main.cpp.o: CMakeFiles/byrteam.dir/flags.make
-CMakeFiles/byrteam.dir/main.cpp.o: /home/liunanfu/CLionProjects/byrteam/main.cpp
+CMakeFiles/byrteam.dir/main.cpp.o: /home/liunanfu/Liunanfu-byrteam-backend-exam-2/main.cpp
 CMakeFiles/byrteam.dir/main.cpp.o: CMakeFiles/byrteam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liunanfu/CLionProjects/byrteam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/byrteam.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/byrteam.dir/main.cpp.o -MF CMakeFiles/byrteam.dir/main.cpp.o.d -o CMakeFiles/byrteam.dir/main.cpp.o -c /home/liunanfu/CLionProjects/byrteam/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/byrteam.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/byrteam.dir/main.cpp.o -MF CMakeFiles/byrteam.dir/main.cpp.o.d -o CMakeFiles/byrteam.dir/main.cpp.o -c /home/liunanfu/Liunanfu-byrteam-backend-exam-2/main.cpp
 
 CMakeFiles/byrteam.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/byrteam.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liunanfu/CLionProjects/byrteam/main.cpp > CMakeFiles/byrteam.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liunanfu/Liunanfu-byrteam-backend-exam-2/main.cpp > CMakeFiles/byrteam.dir/main.cpp.i
 
 CMakeFiles/byrteam.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/byrteam.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liunanfu/CLionProjects/byrteam/main.cpp -o CMakeFiles/byrteam.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liunanfu/Liunanfu-byrteam-backend-exam-2/main.cpp -o CMakeFiles/byrteam.dir/main.cpp.s
 
 CMakeFiles/byrteam.dir/AuthManager.cpp.o: CMakeFiles/byrteam.dir/flags.make
-CMakeFiles/byrteam.dir/AuthManager.cpp.o: /home/liunanfu/CLionProjects/byrteam/AuthManager.cpp
+CMakeFiles/byrteam.dir/AuthManager.cpp.o: /home/liunanfu/Liunanfu-byrteam-backend-exam-2/AuthManager.cpp
 CMakeFiles/byrteam.dir/AuthManager.cpp.o: CMakeFiles/byrteam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liunanfu/CLionProjects/byrteam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/byrteam.dir/AuthManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/byrteam.dir/AuthManager.cpp.o -MF CMakeFiles/byrteam.dir/AuthManager.cpp.o.d -o CMakeFiles/byrteam.dir/AuthManager.cpp.o -c /home/liunanfu/CLionProjects/byrteam/AuthManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/byrteam.dir/AuthManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/byrteam.dir/AuthManager.cpp.o -MF CMakeFiles/byrteam.dir/AuthManager.cpp.o.d -o CMakeFiles/byrteam.dir/AuthManager.cpp.o -c /home/liunanfu/Liunanfu-byrteam-backend-exam-2/AuthManager.cpp
 
 CMakeFiles/byrteam.dir/AuthManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/byrteam.dir/AuthManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liunanfu/CLionProjects/byrteam/AuthManager.cpp > CMakeFiles/byrteam.dir/AuthManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liunanfu/Liunanfu-byrteam-backend-exam-2/AuthManager.cpp > CMakeFiles/byrteam.dir/AuthManager.cpp.i
 
 CMakeFiles/byrteam.dir/AuthManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/byrteam.dir/AuthManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liunanfu/CLionProjects/byrteam/AuthManager.cpp -o CMakeFiles/byrteam.dir/AuthManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liunanfu/Liunanfu-byrteam-backend-exam-2/AuthManager.cpp -o CMakeFiles/byrteam.dir/AuthManager.cpp.s
 
 CMakeFiles/byrteam.dir/DataHandler.cpp.o: CMakeFiles/byrteam.dir/flags.make
-CMakeFiles/byrteam.dir/DataHandler.cpp.o: /home/liunanfu/CLionProjects/byrteam/DataHandler.cpp
+CMakeFiles/byrteam.dir/DataHandler.cpp.o: /home/liunanfu/Liunanfu-byrteam-backend-exam-2/DataHandler.cpp
 CMakeFiles/byrteam.dir/DataHandler.cpp.o: CMakeFiles/byrteam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liunanfu/CLionProjects/byrteam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/byrteam.dir/DataHandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/byrteam.dir/DataHandler.cpp.o -MF CMakeFiles/byrteam.dir/DataHandler.cpp.o.d -o CMakeFiles/byrteam.dir/DataHandler.cpp.o -c /home/liunanfu/CLionProjects/byrteam/DataHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/byrteam.dir/DataHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/byrteam.dir/DataHandler.cpp.o -MF CMakeFiles/byrteam.dir/DataHandler.cpp.o.d -o CMakeFiles/byrteam.dir/DataHandler.cpp.o -c /home/liunanfu/Liunanfu-byrteam-backend-exam-2/DataHandler.cpp
 
 CMakeFiles/byrteam.dir/DataHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/byrteam.dir/DataHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liunanfu/CLionProjects/byrteam/DataHandler.cpp > CMakeFiles/byrteam.dir/DataHandler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liunanfu/Liunanfu-byrteam-backend-exam-2/DataHandler.cpp > CMakeFiles/byrteam.dir/DataHandler.cpp.i
 
 CMakeFiles/byrteam.dir/DataHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/byrteam.dir/DataHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liunanfu/CLionProjects/byrteam/DataHandler.cpp -o CMakeFiles/byrteam.dir/DataHandler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liunanfu/Liunanfu-byrteam-backend-exam-2/DataHandler.cpp -o CMakeFiles/byrteam.dir/DataHandler.cpp.s
 
 CMakeFiles/byrteam.dir/NMSClient.cpp.o: CMakeFiles/byrteam.dir/flags.make
-CMakeFiles/byrteam.dir/NMSClient.cpp.o: /home/liunanfu/CLionProjects/byrteam/NMSClient.cpp
+CMakeFiles/byrteam.dir/NMSClient.cpp.o: /home/liunanfu/Liunanfu-byrteam-backend-exam-2/NMSClient.cpp
 CMakeFiles/byrteam.dir/NMSClient.cpp.o: CMakeFiles/byrteam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liunanfu/CLionProjects/byrteam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/byrteam.dir/NMSClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/byrteam.dir/NMSClient.cpp.o -MF CMakeFiles/byrteam.dir/NMSClient.cpp.o.d -o CMakeFiles/byrteam.dir/NMSClient.cpp.o -c /home/liunanfu/CLionProjects/byrteam/NMSClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/byrteam.dir/NMSClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/byrteam.dir/NMSClient.cpp.o -MF CMakeFiles/byrteam.dir/NMSClient.cpp.o.d -o CMakeFiles/byrteam.dir/NMSClient.cpp.o -c /home/liunanfu/Liunanfu-byrteam-backend-exam-2/NMSClient.cpp
 
 CMakeFiles/byrteam.dir/NMSClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/byrteam.dir/NMSClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liunanfu/CLionProjects/byrteam/NMSClient.cpp > CMakeFiles/byrteam.dir/NMSClient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liunanfu/Liunanfu-byrteam-backend-exam-2/NMSClient.cpp > CMakeFiles/byrteam.dir/NMSClient.cpp.i
 
 CMakeFiles/byrteam.dir/NMSClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/byrteam.dir/NMSClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liunanfu/CLionProjects/byrteam/NMSClient.cpp -o CMakeFiles/byrteam.dir/NMSClient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liunanfu/Liunanfu-byrteam-backend-exam-2/NMSClient.cpp -o CMakeFiles/byrteam.dir/NMSClient.cpp.s
 
 # Object files for target byrteam
 byrteam_OBJECTS = \
@@ -141,9 +141,10 @@ byrteam: CMakeFiles/byrteam.dir/DataHandler.cpp.o
 byrteam: CMakeFiles/byrteam.dir/NMSClient.cpp.o
 byrteam: CMakeFiles/byrteam.dir/build.make
 byrteam: /usr/lib/x86_64-linux-gnu/libcurl.so
-byrteam: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
+byrteam: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
+byrteam: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 byrteam: CMakeFiles/byrteam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liunanfu/CLionProjects/byrteam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable byrteam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable byrteam"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/byrteam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,6 +156,6 @@ CMakeFiles/byrteam.dir/clean:
 .PHONY : CMakeFiles/byrteam.dir/clean
 
 CMakeFiles/byrteam.dir/depend:
-	cd /home/liunanfu/CLionProjects/byrteam/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liunanfu/CLionProjects/byrteam /home/liunanfu/CLionProjects/byrteam /home/liunanfu/CLionProjects/byrteam/cmake-build-debug /home/liunanfu/CLionProjects/byrteam/cmake-build-debug /home/liunanfu/CLionProjects/byrteam/cmake-build-debug/CMakeFiles/byrteam.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liunanfu/Liunanfu-byrteam-backend-exam-2 /home/liunanfu/Liunanfu-byrteam-backend-exam-2 /home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug /home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug /home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug/CMakeFiles/byrteam.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/byrteam.dir/depend
 

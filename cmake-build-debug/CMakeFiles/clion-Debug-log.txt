@@ -1,6 +1,6 @@
-/home/liunanfu/.cache/JetBrains/RemoteDev/dist/ce40994fdc0ab_CLion-2024.2.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/liunanfu/CLionProjects/byrteam -B /home/liunanfu/CLionProjects/byrteam/cmake-build-debug
--- The C compiler identification is GNU 9.4.0
--- The CXX compiler identification is GNU 9.4.0
+/home/liunanfu/clion-2024.2.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/liunanfu/Liunanfu-byrteam-backend-exam-2 -B /home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: /usr/bin/cc - skipped
@@ -11,13 +11,11 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")
--- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.7.3", minimum required is "3.2.0")
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")
+-- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.10.5", minimum required is "3.2.0")
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
--- Check if compiler accepts -pthread
--- Check if compiler accepts -pthread - yes
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE
--- Configuring done (0.8s)
+-- Configuring done (1.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/liunanfu/CLionProjects/byrteam/cmake-build-debug
+-- Build files have been written to: /home/liunanfu/Liunanfu-byrteam-backend-exam-2/cmake-build-debug
