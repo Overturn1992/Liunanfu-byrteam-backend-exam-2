@@ -98,8 +98,8 @@ bool AuthManager::refreshToken()
     }
     return false;
 }
-std::string AuthManager::getToken() const{return token;}
-std::string AuthManager::getPassword() const{return password;}
+std::string AuthManager::getToken() const {return token;}
+std::string AuthManager::getPassword() const {return password;}
 
 
 

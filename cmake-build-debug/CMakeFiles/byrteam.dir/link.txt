@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/byrteam.dir/main.cpp.o CMakeFiles/byrteam.dir/AuthManager.cpp.o CMakeFiles/byrteam.dir/DataHandler.cpp.o CMakeFiles/byrteam.dir/NMSClient.cpp.o -o byrteam  /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0 -pthread

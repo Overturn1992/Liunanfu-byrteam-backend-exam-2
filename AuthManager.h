@@ -15,6 +15,6 @@ private:
     std::string token;
     std::string password;
     std::string username;
-    bool sendRequest(const std::string &endpoint,const std::string &data,std::string &response,bool useAuth=false);
+    bool sendRequest(const std::string &endpoint,const std::string &data,std::string &response,bool useAuth);
 };
 #endif //AUTHMANAGER_H
