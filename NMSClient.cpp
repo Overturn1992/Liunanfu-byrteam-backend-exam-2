@@ -13,13 +13,15 @@ void NMSClient::run(int maxMinutes)
 {
     if(!authManager.signup(username))
     {
-        spdlog::error("Signed failed.");
-        return;
+        spdlog::warn("Signed failed,we will try to re-signup in 5 seconds.");
+        std::this_thread::sleep_for(std::chrono::seconds(5));
+        retrySignup();
     }
     if(!authManager.login(username,authManager.getPassword()))
     {
-        spdlog::error("Login failed.");
-        return;
+        spdlog::warn("Login failed,we will try to re-login in 5 seconds.");
+        std::this_thread::sleep_for(std::chrono::seconds(5));
+        retryLogin();
     }
     tokenRefreshThread=std::thread(&NMSClient::refreshTokenLoop,this);
     int submissionCount=0;
@@ -67,6 +69,24 @@ bool NMSClient::submitData()
     }
     return true;
 }
+void NMSClient::retrySignup()
+{
+    if(!authManager.signup(username))
+    {
+        std::this_thread::sleep_for(std::chrono::seconds(5));
+        retrySignup();
+    }
+}
+void NMSClient::retryLogin()
+{
+    if(!authManager.login(username,authManager.getPassword()))
+    {
+        std::this_thread::sleep_for(std::chrono::seconds(5));
+        retryLogin();
+    }
+}
+
+
 
 
 

@@ -16,6 +16,8 @@ private:
     std::string username;
     std::thread tokenRefreshThread;
     std::atomic<bool> keepRunning;
+    void retrySignup();
+    void retryLogin();
     void refreshTokenLoop();
     bool submitData();
 };
