@@ -57,8 +57,8 @@ bool NMSClient::submitData()
     std::string code=dataHandler.getCode(token);
     if(code.empty())
     {
-        spdlog::warn("Failed to fetch code,retrying in 5 seconds.");
-        std::this_thread::sleep_for(std::chrono::seconds(5));
+        spdlog::warn("Failed to fetch code,retrying in 10 seconds.");
+        std::this_thread::sleep_for(std::chrono::seconds(10));
         return false;
     }
     if(!dataHandler.submitCode(token,code))
