@@ -29,7 +29,7 @@ void NMSClient::run(int maxMinutes)
     while(std::chrono::steady_clock::now()-startTime<std::chrono::minutes(maxMinutes))
     {
         if(submitData()) submissionCount++;
-        std::this_thread::sleep_for(std::chrono::seconds(8));
+        std::this_thread::sleep_for(std::chrono::seconds(10));
     }
     keepRunning=false;
     if(tokenRefreshThread.joinable()) tokenRefreshThread.join();
